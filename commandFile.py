@@ -130,7 +130,7 @@ def turnHotWord(hotWordState, value):
     return hotWordState
 # Генерация запроса и его параметры к чат ГПТ
 def generate_response(prompt):# генерация запроса к гпт
-    openai.api_key = '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'
+    openai.api_key = ''
     response = openai.Completion.create(
         engine='text-davinci-003',  # Выберите подходящий движок
         prompt=prompt,
